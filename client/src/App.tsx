@@ -3,13 +3,21 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Dashboard from "@/pages/dashboard";
+import Landing from "@/pages/landing";
+import GuidedSelection from "@/pages/guided-selection";
+import UnguidedSelection from "@/pages/unguided-selection";
+import ScenarioResult from "@/pages/scenario-result";
+import GuidedCostComparison from "@/pages/compare/guided-cost";
 import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Dashboard} />
+      <Route path="/" component={Landing} />
+      <Route path="/guided-selection" component={GuidedSelection} />
+      <Route path="/unguided-selection" component={UnguidedSelection} />
+      <Route path="/scenario/:id" component={ScenarioResult} />
+      <Route path="/compare/guided-cost" component={GuidedCostComparison} />
       <Route component={NotFound} />
     </Switch>
   );

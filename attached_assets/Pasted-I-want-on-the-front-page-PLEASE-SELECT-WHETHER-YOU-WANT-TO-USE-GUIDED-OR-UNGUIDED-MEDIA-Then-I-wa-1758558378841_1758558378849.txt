@@ -1,0 +1,131 @@
+I want on the front page “PLEASE SELECT WHETHER YOU WANT TO USE GUIDED OR UNGUIDED MEDIA” .Then I want2 options to be displayed GUIDED and UNGUIDED. The user can select any one of them.If the user selects guided media then he would be redirected to a page showing “PLEASE SELECT YOUR USE CASE/SCENARIO” and then there will be 5 options appear on the screen:
+
+•	1: Local Network for Home or Office
+•	2: High-Speed Network Backbone (Campus/Data Center)
+•	3: Industrial or High-Interference Environment
+•	4: Connecting to a Cable TV or Broadband Service
+•	5: Extremely Long-Distance/Global Connection
+
+When the user selects Option 1 then he will be directed to a page showing 
+You want to connect computers, printers and other devices within a short-to-medium range (e.g., a single room, a floor, or a building).
+Recommended Cable Type: UTP (Unshielded Twisted Pair)
+Why: UTP is the standard for Ethernet, is very affordable, easy to install, and provides more than enough speed for most indoor networking needs.
+ Speed: Low to Medium. Common speeds are 1 Gbps, but can go up to 10 Gbps for high-grade cables over short distances.
+ Cost: Low. It is the most affordable and widely used type of network cable.
+  Interference: High. It has no shielding, making it very susceptible to electromagnetic interference (EMI) and crosstalk from nearby cables or electrical equipment.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+
+When the user selects Option 2 then he will be directed to a page showing 
+You need to connect different buildings on a large campus, link data centers, or build the core of a city's internet infrastructure.
+Recommended Cable: Fiber Optic Cable
+Why: This option is for the user who needs maximum speed, bandwidth, and resistance to signal loss over long distances. It's the best choice for a network backbone.
+  Speed: High to Very High. Fiber optic cables can transmit data at speeds of 10 Gbps, 40 Gbps, and even 100 Gbps or more.
+  Cost: High. The materials and specialized installation tools make fiber optic significantly more expensive than copper-based cables.
+Interference: None. Since data is transmitted using pulses of light, it is completely immune to electromagnetic interference.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+When the user selects Option 3 then he will be directed to a page showing 
+You want to run a network in a location with a lot of electrical equipment, motors, or machinery that could cause interference.
+  Recommended Cable: STP (Shielded Twisted Pair)
+ Why: The extra shielding on an STP cable protects the data signal from electromagnetic interference (EMI), ensuring a reliable connection in a challenging environment.
+•	Speed: Medium to High. Due to the shielding, it can handle higher speeds than UTP over similar distances.
+•	Cost: Medium. It's more expensive than UTP due to the added shielding material.
+•	Interference: Low. The metallic shielding significantly protects the data signal from external EMI and crosstalk, making it suitable for industrial environments.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+
+When user selects option 4  then he will be directed to a page showing
+You want to connect to a cable television service or receive a broadband internet connection from their service provider.
+Recommended Cable: Coaxial Cable
+Why: Coaxial cable has a layered design that allows it to carry high-frequency signals with minimal interference over medium distances, making it the standard for CATV and broadband services.
+
+Speed: Low to Medium. It has a higher bandwidth than twisted pair cables and can achieve speeds up to 1 Gbps. However, it's generally not as fast as modern high-grade twisted pair or fiber optic.
+  Cost: Medium. It's more expensive than twisted pair cables but less expensive than fiber optic.
+ Interference: Low. Its design with an inner conductor and an outer metallic shield provides excellent resistance to interference.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+When user selects option 5 then he will be directed to a page showing
+ You want to establish a connection between continents or countries.
+Recommended Cable: Fiber Optic Cable (Submarine)
+Why: The ability of fiber optics to transmit signals over vast distances with almost no signal degradation makes it the only viable option for a global communication backbone.
+Speed: High to Very High. Fiber optic cables can transmit data at speeds of 10 Gbps, 40 Gbps, and even 100 Gbps or more.
+  Cost: High. The materials and specialized installation tools make fiber optic significantly more expensive than copper-based cables.
+Interference: None. Since data is transmitted using pulses of light, it is completely immune to electromagnetic interference.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+If the user selects unguided media then he would be redirected to a page showing “PLEASE SELECT YOUR USE CASE/SCENARIO” and then there will be 5 options appear on the screen:
+1: General Broadcasting or Wide-Area Wireless (e.g., radio, Wi-Fi)
+2: Point-to-Point, High-Speed Link (e.g., between buildings)
+3: Short-Range Device Control (e.g., remote control)
+
+
+
+When user selects option 1 then he will be directed to a page showing
+ You want to broadcast a signal from one source to many receivers over a large area, like radio or television signals. This is also suitable for mobile communication, Wi-Fi, and general-purpose wireless networking.
+ Recommended Medium: Radio Waves 
+Why: Radio waves are omnidirectional, meaning they propagate in all directions from the antenna. This makes them ideal for broadcasting because a single transmitter can cover a vast geographical area. They can also penetrate walls and other obstacles, ensuring wide coverage.
+•	Speed: Low. While capable of high speeds in some applications (like Wi-Fi), their wide broadcast nature and susceptibility to interference generally result in lower speeds compared to more focused wireless technologies.
+•	Cost: Low. The technology is widespread and inexpensive, from a simple radio receiver to Wi-Fi routers. This makes it an affordable solution for most broadcasting and local wireless needs.
+•	Interference: High. Radio waves are omnidirectional and travel through walls, making them highly susceptible to interference from other wireless devices, electrical signals, and even natural phenomena.
+
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+When user selects option 2 then he will be directed to a page showing
+•	You want to create a focused, high-speed wireless link between two specific locations that have a clear line of sight, such as connecting two buildings or serving as a cellular network's backhaul.
+•	Recommended Medium: Microwaves 
+•	Why: Microwaves are unidirectional and require a clear line of sight. Their high frequency allows them to carry large amounts of data at high speeds, making them perfect for dedicated, long-distance communication links that are more affordable than laying physical cables. They're also used for satellite communication.
+•	Speed: High. Microwaves operate at a higher frequency than radio waves, allowing them to carry more data. This makes them ideal for high-speed, point-to-point communication.
+•	Cost: High. Microwave communication requires specialized equipment, including high-gain parabolic antennas, which must be precisely aligned. This makes the initial setup and maintenance more expensive.
+•	Interference: Medium. Microwaves are unidirectional and must have a clear line of sight, which significantly reduces the chance of interference from signals outside the path. However, they can be affected by weather conditions like heavy rain or snow.
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+When user selects option 3 then he will be directed to a page showing
+
+•	You need to control a device from a short distance without a wire, and the signal should not pass through walls to avoid interference with other rooms.
+
+•	Recommended Medium: Infrared (IR) Waves 
+
+•	Why: Infrared waves are ideal for short-range communication, typically within a single room. They require a line of sight between the transmitter and receiver (e.g., a TV remote and the television). This limitation makes them highly secure for their intended purpose, as the signal cannot be intercepted from outside the room.
+
+•	  Speed: Low. Infrared is used for short-range communication, such as TV remotes. While it can support high data rates in specific applications, its limited range and line-of-sight requirement make its overall application speed low.
+•	 Cost: Low. Infrared emitters and receivers are very common and cheap, making the technology affordable for consumer electronics.
+•	 Interference: Low. Infrared signals cannot penetrate solid objects, which prevents them from interfering with devices in other rooms. However, the signal can be interfered with by strong light sources, especially sunlight.
+
+Also According to this description of speed, cost and interference I want 3 separate speedometers for speed, cost and interference showing whether its high,low medium etc .
+
+
+
+
+
+
+
+
+
+
+
+I  also want links on front page which when clicked directs the user to suitable page showing(give suitable names to links)
+
+1)  Comparison of guided media types  that is UTP,STP,coaxial cable and fibre optic on basis of cost only through bar graph
+2)Comparison of guided media types  that is UTP,STP,coaxial cable and fibre optic on basis of interference only through bar graph
+3)Comparison of guided media types  that is UTP,STP,coaxial cable and fibre optic on basis of speed  through bar graph
+4)Comparison of unguided media types that is Radio waves,microwaves and infrared on basis of cost through bar graph
+5)Comparison of unguided media types that is Radio waves,microwaves and infrared on basis of speed through bar graph
+6)Comparison of unguided media types that is Radio waves,microwaves and infrared on basis of interference  through bar graph
+7)Overall Comparison of unguided and guided on basis of cost through bar graph showing cost on Y axis 
+8)Overall Comparison of unguided and guided on basis of speed through bar graph showing speed on Y axis 
+9)Overall Comparison of unguided and guided on basis of interference through bar graph showing interference on Y axis 
+
+
