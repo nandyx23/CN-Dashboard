@@ -1,0 +1,1 @@
+# This project uses Node.js/TypeScript; no Python dependencies are required.
