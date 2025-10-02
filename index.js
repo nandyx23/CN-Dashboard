@@ -32,6 +32,8 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
+  base: "/MediaCompareDash/",
+  // Add this line with your repo name
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
